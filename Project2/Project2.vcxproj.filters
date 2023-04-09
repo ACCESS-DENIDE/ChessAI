@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Фигуры">
+      <UniqueIdentifier>{3f47278f-c766-4909-94e0-f448a7dafce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\фигуры">
+      <UniqueIdentifier>{a3e9ff68-60e9-497a-83e7-dd4179e58460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Исходные файлы\фигуры</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Файлы заголовков\Фигуры</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureMove.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecFunc.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project2.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Img\черная пешка.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\черный конь.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\черный король.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\черный слон.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\черный ферзь.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белая ладья.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белая пешка.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белый конь.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белый король.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белый слон.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\белый ферзь.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Img\черная ладья.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
